@@ -1,72 +1,57 @@
+# LançaProduto
 
-<p align="center">
-  <h1 align="center">🚀 LançaProduto</h1>
-  <p align="center">Cadastre e apresente seus produtos de forma profissional</p>
-</p>
+Landing page interativa para cadastro e apresentação de produtos, desenvolvida como trabalho acadêmico para a disciplina de Desenvolvimento Web.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-</p>
+**Tecnologias:** HTML5 · CSS3 · JavaScript (Vanilla)
 
 ---
 
-## 📋 Sobre o Projeto
+## Visão Geral
 
-**LançaProduto** é uma landing page interativa para cadastro e apresentação de produtos. Desenvolvida como trabalho acadêmico para a disciplina de **Desenvolvimento Web**, permitindo que usuários cadastrem produtos com nome, descrição, preço e categoria, visualizando os dados em uma tabela organizada.
+O LançaProduto permite que usuários cadastrem produtos informando nome, descrição, preço e categoria, com visualização imediata dos dados em formato de tabela. Todo o processamento é feito no lado do cliente, sem dependências externas ou build tooling.
 
-### 🎯 Funcionalidades
+## Funcionalidades
 
-- 📝 **Formulário inteligente** — Cadastro rápido de produtos com validação
-- 🏷️ **Categorias** — Classificação por tipo (eletrônicos, roupas, casa, esportes, livros)
-- 👁️ **Preview em tempo real** — Visualização dos dados cadastrados em tabela limpa
-- 🎨 **4 temas visuais** — Mocha (escuro), Latte (claro), Frappé (azulado) e Solarized (âmbar)
-- 📱 **Responsivo** — Layout adaptável para desktop e mobile
+- **Formulário com validação** — Campos obrigatórios, tipos específicos (texto, número, select) e placeholders para garantir integridade dos dados inseridos
+- **Organização por categorias** — Classificação em 6 categorias (Eletrônicos, Roupas, Casa, Esportes, Livros, Outros)
+- **Preview em tempo real** — Exibição dos dados cadastrados em tabela após o submit, com destaque no status de confirmação
+- **Sistema de temas** — 4 variações de cores baseadas nas paletas Catppuccin (Mocha, Latte, Frappé) e Solarized, alternadas via JavaScript com variáveis CSS
+- **Design responsivo** — Layout adaptável para diferentes tamanhos de tela
 
-### 🧠 Temas
+## Temas
 
-O projeto conta com **4 temas** baseados na paleta [Catppuccin](https://github.com/catppuccin/catppuccin) + Solarized:
+O sistema de temas utiliza variáveis CSS para alternar entre quatro esquemas de cores sem recarregar a página:
 
-| Tema | Estilo |
-|------|--------|
-| Mocha | 🌙 Escuro (padrão) |
-| Latte | ☀️ Claro |
-| Frappé | 🌊 Azulado |
-| Solarized | 🟠 Âmbar |
+| Tema | Perfil |
+|---|---|
+| Mocha | Escuro (padrão) |
+| Latte | Claro |
+| Frappé | Azulado |
+| Solarized | Âmbar |
 
----
-
-## 🚀 Como Usar
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/ismaeldouglasdev/devweb-landing.git
-```
-
-2. Abra o arquivo `index.html` no navegador.
-
-> Não requer dependências ou build — é 100% client-side.
-
----
-
-## 🏗️ Estrutura
+## Estrutura do Projeto
 
 ```
 devweb-landing/
-├── index.html    # Estrutura da página
-├── style.css     # Estilos e temas
-└── script.js     # Lógica do formulário e troca de temas
+├── index.html    # Estrutura semântica da página
+├── style.css     # Estilos e definição dos temas
+└── script.js     # Lógica do formulário e alternância de temas
 ```
 
+## Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/ismaeldouglasdev/devweb-landing.git
+   ```
+2. Abra o arquivo `index.html` em qualquer navegador moderno.
+
+> Nenhum build tool ou gerenciador de pacotes é necessário — o projeto é 100% client-side.
+
+## Contexto Acadêmico
+
+Projeto desenvolvido para a disciplina de **Desenvolvimento Web** do curso de **Análise e Desenvolvimento de Sistemas**, aplicando conceitos de HTML semântico, CSS moderno (variáveis, Flexbox) e JavaScript para manipulação do DOM e validação de formulários.
+
 ---
 
-## 📚 Disciplina
-
-Projeto desenvolvido para a disciplina de **Desenvolvimento Web** do curso de **Análise e Desenvolvimento de Sistemas**.
-
----
-
-<p align="center">
-  Feito com ❤️ por <a href="https://github.com/ismaeldouglasdev">Ismael Douglas</a>
-</p>
+Desenvolvido por [Ismael Douglas](https://github.com/ismaeldouglasdev).
