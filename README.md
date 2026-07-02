@@ -1,5 +1,9 @@
-# LançaProduto
 <p align="center">
+  <strong>🇧🇷 Português</strong> &nbsp;|&nbsp; <a href="README.en.md">🇺🇸 English</a>
+</p>
+
+# LançaProduto
+
   <strong>🇧🇷 Português</strong> &nbsp;|&nbsp; <a href="README.en.md">🇺🇸 English</a>
 </p>
 
